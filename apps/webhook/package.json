@@ -1,0 +1,21 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@repo/db" : "workspace:*"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "esbuild": "^0.27.3",
+    "express": "^5.2.1"
+  }
+}
